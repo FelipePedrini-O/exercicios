@@ -1,0 +1,6 @@
+==57813== Memcheck, a memory error detector
+==57813== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==57813== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==57813== Command: Resultados/Felipe/jogador/prog Resultados/Felipe/jogador/Casos/2
+==57813== Parent PID: 57812
+==57813== 

@@ -1,0 +1,6 @@
+==57159== Memcheck, a memory error detector
+==57159== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==57159== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==57159== Command: Resultados/Felipe/completo/prog Resultados/Felipe/completo/Casos/5
+==57159== Parent PID: 57158
+==57159== 

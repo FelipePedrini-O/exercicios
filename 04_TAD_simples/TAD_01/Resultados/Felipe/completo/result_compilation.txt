@@ -1,0 +1,82 @@
+jogada.c:7:3: error: conflicting types for ‘tJogada’; have ‘struct <anonymous>’
+    7 | } tJogada;
+      |   ^~~~~~~
+In file included from jogada.c:1:
+jogada.h:9:3: note: previous declaration of ‘tJogada’ with type ‘tJogada’
+    9 | } tJogada;
+      |   ^~~~~~~
+jogada.c:9:9: error: conflicting types for ‘LeJogada’; have ‘tJogada()’
+    9 | tJogada LeJogada(){
+      |         ^~~~~~~~
+In file included from jogada.c:1:
+jogada.h:16:9: note: previous declaration of ‘LeJogada’ with type ‘tJogada()’
+   16 | tJogada LeJogada();
+      |         ^~~~~~~~
+jogada.c: In function ‘LeJogada’:
+jogada.c:12:8: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   12 |     if(scanf("%d %d", &jogada.x, &jogada.y) == 1){
+      |        ^~~~~
+jogada.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "jogada.h"
+  +++ |+#include <stdio.h>
+    2 | 
+jogada.c:12:8: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   12 |     if(scanf("%d %d", &jogada.x, &jogada.y) == 1){
+      |        ^~~~~
+jogada.c:12:8: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogada.c: At top level:
+jogada.c:21:5: error: conflicting types for ‘ObtemJogadaX’; have ‘int(tJogada)’
+   21 | int ObtemJogadaX(tJogada jogada){
+      |     ^~~~~~~~~~~~
+In file included from jogada.c:1:
+jogada.h:26:5: note: previous declaration of ‘ObtemJogadaX’ with type ‘int(tJogada)’
+   26 | int ObtemJogadaX(tJogada jogada);
+      |     ^~~~~~~~~~~~
+jogada.c:25:5: error: conflicting types for ‘ObtemJogadaY’; have ‘int(tJogada)’
+   25 | int ObtemJogadaY(tJogada jogada){
+      |     ^~~~~~~~~~~~
+In file included from jogada.c:1:
+jogada.h:36:5: note: previous declaration of ‘ObtemJogadaY’ with type ‘int(tJogada)’
+   36 | int ObtemJogadaY(tJogada jogada);
+      |     ^~~~~~~~~~~~
+jogada.c:29:5: error: conflicting types for ‘FoiJogadaBemSucedida’; have ‘int(tJogada)’
+   29 | int FoiJogadaBemSucedida(tJogada jogada){
+      |     ^~~~~~~~~~~~~~~~~~~~
+In file included from jogada.c:1:
+jogada.h:46:5: note: previous declaration of ‘FoiJogadaBemSucedida’ with type ‘int(tJogada)’
+   46 | int FoiJogadaBemSucedida(tJogada jogada);
+      |     ^~~~~~~~~~~~~~~~~~~~
+jogador.c: In function ‘JogaJogador’:
+jogador.c:13:1: warning: control reaches end of non-void function [-Wreturn-type]
+   13 | }
+      | ^
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:28:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   28 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "jogo.h"
+  +++ |+#include <stdio.h>
+    2 | 
+jogo.c:28:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   28 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:28:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:29:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   29 |     scanf("%c", &resp);
+      |     ^~~~~
+jogo.c:29:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c:29:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogo.c:29:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+tabuleiro.c: In function ‘ImprimeTabuleiro’:
+tabuleiro.c:76:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   76 |         printf("\t");
+      |         ^~~~~~
+tabuleiro.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "tabuleiro.h"
+  +++ |+#include <stdio.h>
+    2 | 
+tabuleiro.c:76:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   76 |         printf("\t");
+      |         ^~~~~~
+tabuleiro.c:76:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

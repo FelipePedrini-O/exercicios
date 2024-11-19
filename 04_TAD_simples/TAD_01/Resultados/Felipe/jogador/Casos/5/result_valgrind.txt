@@ -1,0 +1,6 @@
+==58397== Memcheck, a memory error detector
+==58397== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==58397== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==58397== Command: Resultados/Felipe/jogador/prog Resultados/Felipe/jogador/Casos/5
+==58397== Parent PID: 58396
+==58397== 

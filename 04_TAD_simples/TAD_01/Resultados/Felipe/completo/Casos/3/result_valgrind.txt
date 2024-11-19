@@ -1,0 +1,6 @@
+==56968== Memcheck, a memory error detector
+==56968== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==56968== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==56968== Command: Resultados/Felipe/completo/prog Resultados/Felipe/completo/Casos/3
+==56968== Parent PID: 56967
+==56968== 

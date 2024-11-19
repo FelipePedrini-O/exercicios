@@ -1,0 +1,6 @@
+==57045== Memcheck, a memory error detector
+==57045== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==57045== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==57045== Command: Resultados/Felipe/completo/prog Resultados/Felipe/completo/Casos/4
+==57045== Parent PID: 57044
+==57045== 

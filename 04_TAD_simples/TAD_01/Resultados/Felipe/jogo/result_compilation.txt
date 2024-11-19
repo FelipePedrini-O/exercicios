@@ -1,0 +1,18 @@
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:28:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   28 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "jogo.h"
+  +++ |+#include <stdio.h>
+    2 | 
+jogo.c:28:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   28 |     printf("Jogar novamente? (s,n)\n");
+      |     ^~~~~~
+jogo.c:28:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogo.c:29:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   29 |     scanf("%c", &resp);
+      |     ^~~~~
+jogo.c:29:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogo.c:29:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogo.c:29:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’

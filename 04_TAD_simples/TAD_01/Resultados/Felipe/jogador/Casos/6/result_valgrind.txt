@@ -1,0 +1,6 @@
+==58569== Memcheck, a memory error detector
+==58569== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==58569== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==58569== Command: Resultados/Felipe/jogador/prog Resultados/Felipe/jogador/Casos/6
+==58569== Parent PID: 58568
+==58569== 
