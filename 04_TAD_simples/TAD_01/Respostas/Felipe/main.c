@@ -6,6 +6,7 @@ int main(){
     jogo = CriaJogo();
 
     do{
+        printf("Jogador 1\n");
         jogo.tabuleiro = JogaJogador(jogo.jogador1, jogo.tabuleiro);
         ImprimeTabuleiro(jogo.tabuleiro);
 
@@ -15,6 +16,7 @@ int main(){
             }
         }
 
+        printf("Jogador 2\n")
         jogo.tabuleiro = JogaJogador(jogo.jogador2, jogo.tabuleiro);
         ImprimeTabuleiro(jogo.tabuleiro);
 
