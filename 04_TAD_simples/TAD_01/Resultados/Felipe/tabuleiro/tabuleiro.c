@@ -1,4 +1,5 @@
 #include "tabuleiro.h"
+#include <stdio.h>
 
 tTabuleiro CriaTabuleiro(){
     tTabuleiro tabuleiro;
@@ -59,7 +60,7 @@ int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y){
     if(tabuleiro.posicoes[y][x] == tabuleiro.pecaVazio){
         return 1;
     } 
-
+    printf("OCUPADA!\n");
     return 0;
 }
 
@@ -67,7 +68,7 @@ int EhPosicaoValidaTabuleiro(int x, int y){
     if(x < TAM_TABULEIRO && x >= 0 && y < TAM_TABULEIRO && y >= 0){
         return 1;
     }
-
+    printf("Nao eh valida!\n");
     return 0;
 }
 

@@ -1,10 +1,5 @@
 #include "jogada.h"
-
-typedef struct{
-    int x;
-    int y;
-    int sucesso;
-} tJogada;
+#include <stdio.h>
 
 tJogada LeJogada(){
     tJogada jogada;
@@ -13,6 +8,7 @@ tJogada LeJogada(){
         jogada.sucesso = 1;
     }else{
         jogada.sucesso = 0;
+        printf("Jogada invalida!\n");
     }
 
     return jogada;

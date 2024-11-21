@@ -1,4 +1,5 @@
 #include "jogo.h"
+#include <stdio.h>
 
 tJogo CriaJogo(){
     tJogo jogo;
@@ -25,6 +26,7 @@ int AcabouJogo(tJogo jogo){
 int ContinuaJogo(){
     char resp; 
 
+    scanf("%*c");
     printf("Jogar novamente? (s,n)\n");
     scanf("%c", &resp);
 

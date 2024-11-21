@@ -1,4 +1,5 @@
 #include "tabuleiro.h"
+#include <stdio.h>
 
 tTabuleiro CriaTabuleiro(){
     tTabuleiro tabuleiro;

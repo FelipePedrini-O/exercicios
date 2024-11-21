@@ -1,6 +1,0 @@
-==56386== Memcheck, a memory error detector
-==56386== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==56386== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==56386== Command: Resultados/Felipe/main/prog Resultados/Felipe/main/Casos/4
-==56386== Parent PID: 56385
-==56386== 
